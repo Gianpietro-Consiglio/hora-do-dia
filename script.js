@@ -6,7 +6,6 @@ var hour = agora.getHours()
 var minute = agora.getMinutes()
 var imagem = window.document.getElementById('imagem')
 
-hour = 18
 if (hour >= 6 && hour <= 12){
     bdn.innerText = 'Bom dia'
     page.style.background = 'DeepSkyBlue'
